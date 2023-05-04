@@ -20,6 +20,22 @@ app.get('/allData', (req, res) =>{
     res.send(allData);
 });
 
+app.get('/allData/:id', (req, res) => {
+    const id =req.params.id
+    console.log(id)
+    if( id ==0)
+    {
+        res.send(allData)
+    }else{
+        const chefData = allData.find(n => n.id == id)
+        res.send(chefData)
+    }
+   
+    console.log(chefData)
+
+    
+})
+
 
 
 
