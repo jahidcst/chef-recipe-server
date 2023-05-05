@@ -1,191 +1,196 @@
- [
-      {
-        "id": 1,
-        "picture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg?w=900&t=st=1683190945~exp=1683191545~hmac=53a4e7b1de081eef462eff005a9fa9652debd77062aceff684594ed14caccaeb",
-        "name": "John Doe",
-        "years_of_experience": 10,
-        "num_recipes": 15,
-        "likes": 200,
-        "recipes": [
-          {
-            "name": "Spaghetti Bolognese",
-            "ingredients": ["spaghetti", "ground beef", "onion", "garlic", "tomato sauce"],
-            "cooking_method": "Boil spaghetti, brown beef, sauté onion and garlic, add tomato sauce and simmer for 20 minutes",
-            "rating": 4.5,
-            "favorite": false
-          },
-          {
-            "name": "Chicken Alfredo",
-            "ingredients": ["fettuccine", "chicken breast", "heavy cream", "parmesan cheese", "garlic"],
-            "cooking_method": "Boil fettuccine, sauté chicken and garlic, add heavy cream and cheese, toss with pasta",
-            "rating": 4.2,
-            "favorite": true
-          },
-          {
-            "name": "Beef Stir Fry",
-            "ingredients": ["beef sirloin", "bell pepper", "onion", "soy sauce", "ginger"],
-            "cooking_method": "Sear beef, stir fry bell pepper and onion, add soy sauce and ginger",
-            "rating": 4.7,
-            "favorite": false
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "picture": "https://img.freepik.com/free-photo/front-view-female-confectioner-white-wear-holding-plate-with-food-pink-desk-cook-job-kitchen-cuisine-food_140725-35293.jpg?w=900&t=st=1683191254~exp=1683191854~hmac=0c009e96ba36b71743ba8bf9a88b7fc7db361647e313c78a758389c9c7a443f0",
-        "name": "Jane Smith",
-        "years_of_experience": 8,
-        "num_recipes": 12,
-        "likes": 150,
-        "recipes": [
-          {
-            "name": "Beef Stew",
-            "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
-            "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
-            "rating": 4.9,
-            "favorite": true
-          },
-          {
-            "name": "Grilled Salmon",
-            "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
-            "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
-            "rating": 4.3,
-            "favorite": false
-          },
-          {
-            "name": "Mushroom Risotto",
-            "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
-            "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
-            "rating": 4.6,
-            "favorite": false
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "picture": "https://img.freepik.com/free-photo/cheerful-young-cook-uniform-holding-salad-pointing-you_171337-5346.jpg?w=900&t=st=1683193357~exp=1683193957~hmac=8ac3904292305743d581f0e7756775f288632a0877f65b0b2aa781ff49a64761",
-        "name": "Grant Achatz",
-        "years_of_experience": 10,
-        "num_recipes": 8,
-        "likes": 100,
-        "recipes": [
-          {
-            "name": "Beef Stew",
-            "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
-            "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
-            "rating": 4.9,
-            "favorite": true
-          },
-          {
-            "name": "Grilled Salmon",
-            "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
-            "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
-            "rating": 4.3,
-            "favorite": false
-          },
-          {
-            "name": "Mushroom Risotto",
-            "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
-            "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
-            "rating": 4.6,
-            "favorite": false
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "picture": "https://img.freepik.com/free-photo/front-view-fhttps://img.freepik.com/free-photo/chef-enjoying-aroma-meal_329181-703.jpg?w=900&t=st=1683193085~exp=1683193685~hmac=af3a3cf2a636e60f29af95275343a53c34a301ebe3a17fc36e8f1de939acd6ec",
-        "name": "Ferran Adrià",
-        "years_of_experience": 12,
-        "num_recipes": 15,
-        "likes": 200,
-        "recipes": [
-          {
-            "name": "Beef Stew",
-            "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
-            "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
-            "rating": 4.9,
-            "favorite": true
-          },
-          {
-            "name": "Grilled Salmon",
-            "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
-            "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
-            "rating": 4.3,
-            "favorite": false
-          },
-          {
-            "name": "Mushroom Risotto",
-            "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
-            "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
-            "rating": 4.6,
-            "favorite": false
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "picture": "https://img.freepik.com/free-photo/studio-portrait-cook-man-with-fresh-vegetables-table_613910-10050.jpg?w=900&t=st=1683193139~exp=1683193739~hmac=6855a40b615dee5222703930bfc10e1f9063535760be84bfcf06beee581903b1",
-        "name": "James Beard",
-        "years_of_experience": 13,
-        "num_recipes": 18,
-        "likes": 300,
-        "recipes": [
-          {
-            "name": "Beef Stew",
-            "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
-            "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
-            "rating": 4.9,
-            "favorite": true
-          },
-          {
-            "name": "Grilled Salmon",
-            "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
-            "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
-            "rating": 4.3,
-            "favorite": false
-          },
-          {
-            "name": "Mushroom Risotto",
-            "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
-            "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
-            "rating": 4.6,
-            "favorite": false
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "picture": "https://img.freepik.com/free-photo/portrait-female-chef-with-cooking-pot-table-with-fresh-vegetables_613910-9815.jpg?w=900&t=st=1683193170~exp=1683193770~hmac=495535809a91508df7065cab6958429ed39c3913b789dc148a0a8e80264c6c44",
-        "name": "Anthony Bourdain",
-        "years_of_experience": 6,
-        "num_recipes": 10,
-        "likes": 140,
-        "recipes": [
-          {
-            "name": "Beef Stew",
-            "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
-            "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
-            "rating": 4.9,
-            "favorite": true
-          },
-          {
-            "name": "Grilled Salmon",
-            "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
-            "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
-            "rating": 4.3,
-            "favorite": false
-          },
-          {
-            "name": "Mushroom Risotto",
-            "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
-            "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
-            "rating": 4.6,
-            "favorite": false
-          }
-        ]
-      }
-      
-    ]
+[
+    {
+      "id": 1,
+      "picture": "https://img.freepik.com/free-photo/happy-young-cook-uniform-holding-salad_171337-5343.jpg?w=900&t=st=1683190945~exp=1683191545~hmac=53a4e7b1de081eef462eff005a9fa9652debd77062aceff684594ed14caccaeb",
+      "name": "John Doe",
+      "description": "John Doe is a highly skilled chef with over 10 years of experience in the culinary industry. He has worked in some of the most renowned restaurants in the country and has won several awards for his innovative and delicious dishes. John is passionate about using fresh, locally sourced ingredients and creating unique flavor combinations that delight his customers. He is also committed to mentoring and training the next generation of chefs, and regularly volunteers his time to teach cooking classes to underprivileged youth.",
+      "years_of_experience": 10,
+      "num_recipes": 15,
+      "likes": 200,
+      "recipes": [
+        {
+          "name": "Spaghetti Bolognese",
+          "ingredients": ["spaghetti", "ground beef", "onion", "garlic", "tomato sauce"],
+          "cooking_method": "Boil spaghetti, brown beef, sauté onion and garlic, add tomato sauce and simmer for 20 minutes",
+          "rating": 4.5,
+          "favorite": false
+        },
+        {
+          "name": "Chicken Alfredo",
+          "ingredients": ["fettuccine", "chicken breast", "heavy cream", "parmesan cheese", "garlic"],
+          "cooking_method": "Boil fettuccine, sauté chicken and garlic, add heavy cream and cheese, toss with pasta",
+          "rating": 4.2,
+          "favorite": true
+        },
+        {
+          "name": "Beef Stir Fry",
+          "ingredients": ["beef sirloin", "bell pepper", "onion", "soy sauce", "ginger"],
+          "cooking_method": "Sear beef, stir fry bell pepper and onion, add soy sauce and ginger",
+          "rating": 4.7,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "picture": "https://img.freepik.com/free-photo/front-view-female-confectioner-white-wear-holding-plate-with-food-pink-desk-cook-job-kitchen-cuisine-food_140725-35293.jpg?w=900&t=st=1683191254~exp=1683191854~hmac=0c009e96ba36b71743ba8bf9a88b7fc7db361647e313c78a758389c9c7a443f0",
+      "name": "Jane Smith",
+      "description": "Jane Smith is a professional chef with over 10 years of experience in the culinary industry. She is known for her innovative approach to cooking and her ability to create delicious dishes using fresh, local ingredients. Jane has worked in some of the most renowned restaurants in the world and has won numerous awards for her culinary skills. She is passionate about creating new recipes and sharing her love of food with others.",
+      "years_of_experience": 8,
+      "num_recipes": 12,
+      "likes": 150,
+      "recipes": [
+        {
+          "name": "Beef Stew",
+          "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
+          "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
+          "rating": 4.9,
+          "favorite": true
+        },
+        {
+          "name": "Grilled Salmon",
+          "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
+          "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
+          "rating": 4.3,
+          "favorite": false
+        },
+        {
+          "name": "Mushroom Risotto",
+          "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
+          "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
+          "rating": 4.6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "picture": "https://img.freepik.com/free-photo/cheerful-young-cook-uniform-holding-salad-pointing-you_171337-5346.jpg?w=900&t=st=1683193357~exp=1683193957~hmac=8ac3904292305743d581f0e7756775f288632a0877f65b0b2aa781ff49a64761",
+      "name": "Grant Achatz",
+      "description": "Grant Achatz is a professional chef with over 10 years of experience in the culinary industry. She is known for her innovative approach to cooking and her ability to create delicious dishes using fresh, local ingredients. Jane has worked in some of the most renowned restaurants in the world and has won numerous awards for her culinary skills. She is passionate about creating new recipes and sharing her love of food with others.",
+      "years_of_experience": 10,
+      "num_recipes": 8,
+      "likes": 100,
+      "recipes": [
+        {
+          "name": "Beef Stew",
+          "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
+          "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
+          "rating": 4.9,
+          "favorite": true
+        },
+        {
+          "name": "Grilled Salmon",
+          "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
+          "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
+          "rating": 4.3,
+          "favorite": false
+        },
+        {
+          "name": "Mushroom Risotto",
+          "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
+          "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
+          "rating": 4.6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "picture": "https://img.freepik.com/free-photo/front-view-fhttps://img.freepik.com/free-photo/chef-enjoying-aroma-meal_329181-703.jpg?w=900&t=st=1683193085~exp=1683193685~hmac=af3a3cf2a636e60f29af95275343a53c34a301ebe3a17fc36e8f1de939acd6ec",
+      "name": "Ferran Adrià",
+      "description": "Ferran Adriàis a professional chef with over 10 years of experience in the culinary industry. She is known for her innovative approach to cooking and her ability to create delicious dishes using fresh, local ingredients. Jane has worked in some of the most renowned restaurants in the world and has won numerous awards for her culinary skills. She is passionate about creating new recipes and sharing her love of food with others.",
+      "years_of_experience": 12,
+      "num_recipes": 15,
+      "likes": 200,
+      "recipes": [
+        {
+          "name": "Beef Stew",
+          "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
+          "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
+          "rating": 4.9,
+          "favorite": true
+        },
+        {
+          "name": "Grilled Salmon",
+          "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
+          "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
+          "rating": 4.3,
+          "favorite": false
+        },
+        {
+          "name": "Mushroom Risotto",
+          "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
+          "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
+          "rating": 4.6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "picture": "https://img.freepik.com/free-photo/studio-portrait-cook-man-with-fresh-vegetables-table_613910-10050.jpg?w=900&t=st=1683193139~exp=1683193739~hmac=6855a40b615dee5222703930bfc10e1f9063535760be84bfcf06beee581903b1",
+      "name": "James Beard",
+      "description": "FJames Beard a professional chef with over 10 years of experience in the culinary industry. She is known for her innovative approach to cooking and her ability to create delicious dishes using fresh, local ingredients. Jane has worked in some of the most renowned restaurants in the world and has won numerous awards for her culinary skills. She is passionate about creating new recipes and sharing her love of food with others.",
+      "years_of_experience": 13,
+      "num_recipes": 18,
+      "likes": 300,
+      "recipes": [
+        {
+          "name": "Beef Stew",
+          "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
+          "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
+          "rating": 4.9,
+          "favorite": true
+        },
+        {
+          "name": "Grilled Salmon",
+          "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
+          "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
+          "rating": 4.3,
+          "favorite": false
+        },
+        {
+          "name": "Mushroom Risotto",
+          "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
+          "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
+          "rating": 4.6,
+          "favorite": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "picture": "https://img.freepik.com/free-photo/portrait-female-chef-with-cooking-pot-table-with-fresh-vegetables_613910-9815.jpg?w=900&t=st=1683193170~exp=1683193770~hmac=495535809a91508df7065cab6958429ed39c3913b789dc148a0a8e80264c6c44",
+      "name": "Anthony Bourdain",
+      "description": "Anthony Bourdain a professional chef with over 10 years of experience in the culinary industry. She is known for her innovative approach to cooking and her ability to create delicious dishes using fresh, local ingredients. Jane has worked in some of the most renowned restaurants in the world and has won numerous awards for her culinary skills. She is passionate about creating new recipes and sharing her love of food with others.",
+      "years_of_experience": 6,
+      "num_recipes": 10,
+      "likes": 140,
+      "recipes": [
+        {
+          "name": "Beef Stew",
+          "ingredients": ["beef chuck", "carrots", "potatoes", "onion", "beef broth"],
+          "cooking_method": "Sear beef, add vegetables and broth, simmer for 2 hours",
+          "rating": 4.9,
+          "favorite": true
+        },
+        {
+          "name": "Grilled Salmon",
+          "ingredients": ["salmon fillet", "lemon", "olive oil", "salt", "pepper"],
+          "cooking_method": "Season salmon with salt and pepper, grill for 10 minutes, squeeze lemon on top",
+          "rating": 4.3,
+          "favorite": false
+        },
+        {
+          "name": "Mushroom Risotto",
+          "ingredients": ["arborio rice", "mushrooms", "chicken broth", "parmesan cheese", "white wine"],
+          "cooking_method": "Sauté mushrooms and rice, add broth and wine gradually, stir in cheese",
+          "rating": 4.6,
+          "favorite": false
+        }
+      ]
+    }
+    
+  ]
 
-  
