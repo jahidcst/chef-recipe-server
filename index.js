@@ -25,8 +25,6 @@ app.get('/chef/:id',(req,res) => {
         const chefData = chef.find(n => n.id == id)
         res.send(chefData)
     }
-   
-    console.log(chefData)
 })
 
 app.listen(port,() =>{
